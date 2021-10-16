@@ -1,0 +1,49 @@
+html,
+body{
+    max-width: 1920px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: turquoise;
+}
+.button-input{
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 3%;
+    padding: 0 1em;
+}
+.button-input:hover{
+    background: yellow;
+}
+.slide{
+    width: 99%;
+    height: 80%;
+    position: relative;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 4em 2em 8em;
+    background-color: turquoise;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: left 0s .75s;
+}
+.slide-one{
+    background-image: url(./Memes/1.jpg);
+}
+.slide-two{
+    background-image: url(./Memes/2.jpg);
+}
+.slide-three{
+    background-image: url(./Memes/3.jpg);
+}
+.slide-four{
+    background-image: url(./Memes/4.jpg);
+}
